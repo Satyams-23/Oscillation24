@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Rule.css";
+import png1 from "./Team work-rafiki.png";
+import png2 from "./Cash Payment-bro.png";
+import png3 from "./Forms-amico.png";
 
 function Rule() {
   const [isVisible, setIsVisible] = useState(true);
@@ -33,18 +36,19 @@ function Rule() {
           <div className="col justify-content-center d-flex mt-2">
             <div
               className="card text-white"
-              style={{ width: "18rem", backgroundColor: "#101318" }}
+              style={{ width: "25rem", backgroundColor: "#101318" }}
             >
               <img
-                src="https://adityalawate.github.io/VNPS-2023/images/icon/team.png"
+                src={png1}
                 className="card-img-top mx-auto "
                 alt="..."
                 style={{ width: "50%" }}
               />
               <div className="card-body">
+                <h1 className="card-title fw-bolder text-center">Team Size</h1>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A team can consist of Maximum 4 members.Bearing a valid
+                  college ID mandatory.
                 </p>
               </div>
             </div>
@@ -53,18 +57,23 @@ function Rule() {
             {" "}
             <div
               className="card text-white"
-              style={{ width: "18rem", backgroundColor: "#101318" }}
+              style={{ width: "25rem", backgroundColor: "#101318" }}
             >
               <img
-                src="https://adityalawate.github.io/VNPS-2023/images/icon/team.png"
+                src={png2}
                 className="card-img-top mx-auto "
                 alt="..."
                 style={{ width: "50%" }}
               />
               <div className="card-body">
+                <h1 className="card-title fw-bolder text-center">
+                  Resgiration Fee
+                </h1>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  The rates are per group basis Internal (For VCET Students): BE
+                  Major Project: ₹ 200/- TE/SE Minor Project: ₹ 150/- External
+                  (For NON-VCET Students): BE Major Project: ₹ 300/- TE/SE Minor
+                  Project: ₹ 200/-.
                 </p>
               </div>
             </div>
@@ -73,19 +82,21 @@ function Rule() {
             {" "}
             <div
               className="card text-white"
-              style={{ width: "18rem", backgroundColor: "#101318" }}
+              style={{ width: "25rem", backgroundColor: "#101318" }}
             >
               <img
-                src="https://adityalawate.github.io/VNPS-2023/images/icon/team.png"
+                src={png3}
                 className="card-img-top mx-auto "
                 alt="..."
                 style={{ width: "50%" }}
               />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+              <div className="card-body ">
+                <h1 className="card-title fw-bolder text-center">
+                  REGISTRATION
+                </h1>
+                <button className="btn btn-outline-light m-auto d-flex mt-5 fs-2 fw-bolder">
+                  Register Here
+                </button>
               </div>
             </div>
           </div>

@@ -1,17 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 function Navbar() {
-  <Link
-    activeClass="active"
-    to="main"
-    spy={true}
-    smooth={true}
-    offset={50}
-    duration={500}
-    className="nav-link "
-    aria-current="page"
-    href="#"
-  ></Link>;
   return (
     <nav className="navbar  navbar-expand-lg navbar-dark border-bottom sticky-top  p-1">
       <div className="container-fluid ">
