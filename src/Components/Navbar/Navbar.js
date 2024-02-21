@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { Link } from "react-scroll";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand ms-2" href="#">
             VNPS
@@ -24,23 +23,58 @@ function Navbar() {
             className="collapse navbar-collapse  justify-content-center"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav nav-underline ">
+            <ul className="navbar-nav nav-underline">
               <li className="nav-item ms-2">
-                <Link className="nav-link" aria-current="page" href="#">
+                <Link
+                  activeClass="active"
+                  to="main"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  className="nav-link "
+                  aria-current="page"
+                  href="#"
+                >
                   Home
                 </Link>
               </li>
               <li className="nav-item ms-2">
-                <Link to="/about" className="nav-link" href="#">
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="nav-link"
+                  href="#"
+                >
                   About us
                 </Link>
               </li>
 
               <li className="nav-item ms-2">
-                <Link className="nav-link ">Track</Link>
+                <Link
+                  className="nav-link "
+                  activeClass="active"
+                  to="track"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  Track
+                </Link>
               </li>
               <li className="nav-item ms-2">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link "
+                  activeClass="active"
+                  to="rule"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}>
                   Rules
                 </Link>
               </li>

@@ -2,7 +2,7 @@ import React from "react";
 import "../About/About.css";
 function About() {
   return (
-    <div className="container-fluid mt-5 pt-3">
+    <div className="container-fluid mt-5 pt-3 " id="about">
       <hr className="border-5 border-white opacity-75 " />
       <div className=" fw-bolder text-center about text-white">ABOUT US</div>
       <div className="container">
@@ -17,60 +17,60 @@ function About() {
           innovate.
         </p>
         <div className="container mt-5">
-          <div className="row justify-content-center  ">
-            <div className="col p-2 text-center">
+          <div className="row justify-content-center p-0 ">
+            <div className="col  text-center">
               <img
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/csi.png"
-                className="img rounded-top"
-                style={{ width: "10rem" }}
+                className="img "
+                style={{ width: "8rem", aspectRatio: "1" }}
                 alt=""
               />
             </div>
-            <div className="col p-2 text-center">
+            <div className="col text-center">
               <img
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/isa.png"
-                className="img rounded-top"
-                style={{ width: "10rem" }}
+                className="img "
+                style={{ width: "8rem", aspectRatio: "1" }}
                 alt=""
               />
             </div>
-            <div className="col p-3 text-center">
+            <div className="col text-center">
               <img
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/ishrae.png"
-                className="img rounded-top"
-                style={{ width: "10rem" }}
+                className="img"
+                style={{ width: "8rem", aspectRatio: "1" }}
                 alt=""
               />
             </div>
-            <div className="col p-3 mt-3 text-center">
+            <div className="col  mt-3 text-center">
               <img
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/igbc.png"
-                className="img rounded-top"
-                style={{ width: "10rem" }}
+                className="img "
+                style={{ width: "10rem", aspectRatio: "3/2" }}
                 alt=""
               />
             </div>
             <div className="col mt-3 text-center">
               <img
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/ieee.png"
-                className="img rounded-top"
-                style={{ width: "10rem" }}
+                className="img"
+                style={{ width: "8rem", aspectRatio: "1" }}
                 alt=""
               />
             </div>
-            <div className="col mt-3 text-center">
+            <div className="col mt-3 text-center ">
               <img
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/iete.png"
-                className="img rounded-top"
-                style={{ width: "10rem" }}
+                className="img "
+                style={{ width: "8rem", aspectRatio: "1" }}
                 alt=""
               />
             </div>
             <div className="col mt-3 text-center">
               <img
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/vmea.png"
-                className="img rounded-top"
-                style={{ width: "10rem" }}
+                className="img "
+                style={{ width: "8rem", aspectRatio: "1" }}
                 alt=""
               />
             </div>

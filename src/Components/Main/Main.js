@@ -3,7 +3,7 @@ import "../Main/Main.css";
 import { Link } from "react-router-dom";
 function Main() {
   return (
-    <div className="container-fluid mt-5 text-white">
+    <div className="container-fluid mt-5 text-white" id="main">
       <div className="container justify-content-center  ">
         <div className="text-center p-0 ">
           <h1 className="p-0 m-auto fw-bolder intro">VNPS '24</h1>

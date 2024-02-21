@@ -1,0 +1,26 @@
+.rule {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4.5rem;
+}
+.para {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  margin: auto;
+}
+.fade-in-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition-delay: 0.5s;
+}
+
+.fade-in-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.intro {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 6.5rem;
+}
