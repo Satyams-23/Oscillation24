@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="container-fluid mt-5">
+    <div className="container-fluid mt-5" id="contact">
       <div className="fw-bolder text-center rule text-white">Contact us</div>
       <div className="container mt-5">
         <div className="row justify-content-center d-flex">

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Rule.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function Rule() {
   const [isVisible, setIsVisible] = useState(true);
   const [isScrollingUp, setIsScrollingUp] = useState(true);
@@ -119,7 +118,7 @@ function Rule() {
             </ul>
           </div>
         </div>
-        <div className="row justify-content-center d-flex mt-4">
+        <div className="row justify-content-center d-flex mt-4 gap-5">
           <div className="col text-white">
             <div className="row">
               <img />
