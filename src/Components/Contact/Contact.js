@@ -16,7 +16,7 @@ function Contact() {
               }}
             />
           </div>
-          <div className="col">
+          <div className="col text-white">
             <h1>VIDYAVARDHINI'S COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
             <div className="row mt-4">
               <div className="col-sm-2"></div>
