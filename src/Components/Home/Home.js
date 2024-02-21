@@ -5,6 +5,7 @@ import Track from "../Track/Track.js";
 import Rule from "../Rule/Rule.js";
 import Main from "../Main/Main.js";
 import Contact from "../Contact/Contact.js";
+import Footer from "../Footer/Footer.js";
 function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ function Home() {
       <Track />
       <Rule />
       <Contact />
+      <Footer/>
     </>
   );
 }

@@ -31,7 +31,7 @@ function Rule() {
           There are some rules you need to follow..!!!
         </p>
         <div className="row justify-content-center d-flex mt-3">
-          <div className="col justify-content-center d-flex">
+          <div className="col justify-content-center d-flex mt-2">
             <div
               className="card text-white"
               style={{ width: "18rem", backgroundColor: "#101318" }}
@@ -50,7 +50,7 @@ function Rule() {
               </div>
             </div>
           </div>
-          <div className="col justify-content-center d-flex">
+          <div className="col justify-content-center d-flex mt-2">
             {" "}
             <div
               className="card text-white"
@@ -70,7 +70,7 @@ function Rule() {
               </div>
             </div>
           </div>
-          <div className="col justify-content-center d-flex">
+          <div className="col justify-content-center d-flex mt-2">
             {" "}
             <div
               className="card text-white"
