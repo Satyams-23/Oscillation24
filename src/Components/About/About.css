@@ -13,7 +13,7 @@
   /* Adjust font size for mobile devices */
   .par {
     font-size: 1rem;
-    text-align: start; /* Decrease font size for mobile */
+  /* Decrease font size for mobile */
   }
 }
 
@@ -22,6 +22,6 @@
   /* Adjust font size for laptop/desktop devices */
   .par {
     font-size: 1.5rem;
-    text-align: center; /* Keep original font size for laptops */
+    /* Keep original font size for laptops */
   }
 }

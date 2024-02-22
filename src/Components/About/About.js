@@ -6,7 +6,7 @@ function About() {
       <hr className="border-5 border-white opacity-75 " />
       <div className=" fw-bolder text-center about text-white">ABOUT US</div>
       <div className="container">
-        <p className="text-white  par mt-2">
+        <p className="text-white text-center par mt-2">
           VNPS 2023 is a National Level project showcase which is the biggest
           Technical Fest organized by Vidyavardhini's College of Engineering and
           Technology. VNPS is realized by the combined efforts of various
