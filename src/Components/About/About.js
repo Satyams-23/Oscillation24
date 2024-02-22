@@ -2,7 +2,7 @@ import React from "react";
 import "../About/About.css";
 function About() {
   return (
-    <div className="container-fluid mt-5 pt-3 " id="about">
+    <div className="container-fluid mt-5 pt-3  " id="about">
       <hr className="border-5 border-white opacity-75 " />
       <div className=" fw-bolder text-center about text-white">ABOUT US</div>
       <div className="container">

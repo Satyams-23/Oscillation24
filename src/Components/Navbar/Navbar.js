@@ -1,8 +1,17 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+import { scrollToComponent } from "../ScrollTo";
+import "./Navbar.css"
+
 function Navbar() {
+  const handleLinkClick = (componentId) => {
+    scrollToComponent(componentId);
+  };
   return (
-    <nav className="navbar  navbar-expand-lg navbar-dark border-bottom sticky-top  p-1">
+    <nav
+      className="navbar  navbar-expand-lg navbar-dark border-bottom sticky-top  p-1 "
+      id="main"
+    >
       <div className="container-fluid ">
         <Link to="/" className="navbar-brand">
           VNPS
@@ -24,7 +33,7 @@ function Navbar() {
             style={{ marginLeft: "auto" }}
           >
             <li className="nav-item ms-2">
-              <Link to="/" className="nav-link">
+              <Link className="nav-link" onClick={() => handleLinkClick("new")}>
                 <button type="button" class="btn text-white fw-bolder ">
                   Home
                 </button>
@@ -33,14 +42,7 @@ function Navbar() {
             <li className="nav-item ms-2">
               <Link
                 className="nav-link"
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-                aria-current="page"
-                href="#"
+                onClick={() => handleLinkClick("about")}
               >
                 <button type="button" class="btn text-white fw-bolder">
                   About
@@ -50,14 +52,7 @@ function Navbar() {
             <li className="nav-item ms-2">
               <Link
                 className="nav-link"
-                activeClass="active"
-                to="track"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-                aria-current="page"
-                href="#"
+                onClick={() => handleLinkClick("track")}
               >
                 <button type="button" class="btn text-white fw-bolder">
                   Track
@@ -67,14 +62,7 @@ function Navbar() {
             <li className="nav-item ms-2">
               <Link
                 className="nav-link"
-                activeClass="active"
-                to="rule"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-                aria-current="page"
-                href="#"
+                onClick={() => handleLinkClick("rule")}
               >
                 <button type="button" class="btn  text-white fw-bolder ">
                   Rules{" "}
@@ -84,13 +72,7 @@ function Navbar() {
             <li className="nav-item ms-2">
               <Link
                 className="nav-link"
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-                aria-current="page"
+                onClick={() => handleLinkClick("contact")}
               >
                 <button type="button" class="btn text-white fw-bolder">
                   Contact
