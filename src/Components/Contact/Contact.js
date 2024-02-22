@@ -1,5 +1,7 @@
 import React from "react";
-
+import png1 from "./placeholder.png";
+import png2 from "./call.png";
+import png3 from "./web.png";
 function Contact() {
   return (
     <div className="container-fluid mt-5" id="contact">
@@ -19,19 +21,27 @@ function Contact() {
           <div className="col text-white">
             <h1>VIDYAVARDHINI'S COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
             <div className="row mt-4">
-              <div className="col-sm-2"></div>
-              <div className="col-sm-5">
+              <div className="col-sm-1 p-0" style={{ width: "auto" }}>
+                <img src={png1} className="" style={{ width: "32px" }} />
+              </div>
+              <div className="col-sm-5" style={{ width: "89%" }}>
                 K. T. Marg,Dist-Palghar,Shastri Nagar Vasai West, Maharashtra -
                 401202
               </div>
             </div>
-            <div className="row mt-5">
-              <div className="col-sm-2"></div>
-              <div className="col-sm-5">0250-2338234</div>
+            <div className="row mt-3">
+              <div className="col-sm-1 p-0" style={{ width: "auto" }}>
+                <img src={png2} style={{ width: "32px" }} />
+              </div>
+              <div className="col-sm-5" style={{ width: "auto" }}>
+                0250-2338234
+              </div>
             </div>
             <div className="row mt-4">
-              <div className="col-sm-2"></div>
-              <div className="col-sm-5">https://vcet.edu.in/</div>
+              <div className="col-sm-1 p-0" style={{ width: "auto" }}>
+                <img src={png3} style={{ width: "32px" }} />
+              </div>{" "}
+              <div className="col-sm-5" style={{ width: "auto" }}>https://vcet.edu.in/</div>
             </div>
           </div>
         </div>

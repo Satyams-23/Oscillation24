@@ -17,106 +17,161 @@ function Track() {
       <div className="row justify-content-md-center">
         <div className="col p-2 d-flex justify-content-center">
           <div
-            className="card border-5 border-secondary"
+            className="card border-5 border-secondary track1"
             style={{ width: "25rem" }}
           >
-            <img src={gif} alt="Your GIF" />
+            <img
+              src={gif}
+              alt="Your GIF"
+              className="rounded-3 m-auto mt-1 "
+              style={{ width: "20rem" }}
+            />
 
             <div className="card-header">
               <h5 className="card-title fw-bolder">Track 1</h5>
             </div>
-            <ul className="list-group list-group-numbered">
-              <li className="list-group-item">Thermal and Fluid Power Engg.</li>
-              <li className="list-group-item">
+            <ul className="list-group list-group-numbered rounded-2 p-2">
+              <li className="list-group-item track2">
+                Thermal and Fluid Power Engg.
+              </li>
+              <li className="list-group-item track2">
                 Mechanical System Design and Development
               </li>
-              <li className="list-group-item">Industry 4.0</li>
-              <li className="list-group-item">Renewable Energy</li>
-              <li className="list-group-item"> Optimisation and Simulation</li>
-              <li className="list-group-item">
+              <li className="list-group-item track2">Industry 4.0</li>
+              <li className="list-group-item track2">Renewable Energy</li>
+              <li className="list-group-item track2">
+                {" "}
+                Optimisation and Simulation
+              </li>
+              <li className="list-group-item track2">
                 AI and ML application to Mechanical systems
               </li>
             </ul>
           </div>
         </div>
         <div className="col p-2  d-flex justify-content-center">
-          <div className="card border-5 border-secondary" style={{ width: "25rem" }}>
-            <img src={gif1} alt="Your GIF" />
+          <div
+            className="card border-5 border-secondary track1"
+            style={{ width: "25rem" }}
+          >
+            <img
+              src={gif1}
+              alt="Your GIF"
+              className="rounded-3 m-auto mt-1 "
+              style={{ width: "20rem" }}
+            />
 
             <div className="card-header">
               <h5 className="card-title fw-bolder">Track 2</h5>
             </div>
-            <ul className="list-group list-group-numbered">
-              <li className="list-group-item">
+            <ul className="list-group list-group-numbered p-2">
+              <li className="list-group-item track2">
                 Microcontroller and Embedded Systems
               </li>
-              <li className="list-group-item">IoT and Industry 4.0</li>
-              <li className="list-group-item">
+              <li className="list-group-item track2">IoT and Industry 4.0</li>
+              <li className="list-group-item track2">
                 Signal,Image, Speech & Video Processing
               </li>
-              <li className="list-group-item">
+              <li className="list-group-item track2">
                 Emerging Wireless Communication Technologies and Sensor Networks
               </li>
-              <li className="list-group-item"> VLSI Application</li>
+              <li className="list-group-item track2"> VLSI Application</li>
             </ul>
           </div>
         </div>
-        <div className="col p-2  d-flex justify-content-center">
-          <div className="card border-5 border-secondary" style={{ width: "25rem" }}>
-            <img src={gif5} alt="Your GIF" />
-
+        <div className="col p-2  d-flex justify-content-center rounded-3">
+          <div
+            className="card border-5 border-secondary track1"
+            style={{ width: "25rem" }}
+          >
+            <img
+              src={gif5}
+              alt="Your GIF"
+              style={{
+                width: "20rem",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+              className="rounded-3  mt-1 "
+            />
             <div className="card-header">
               <h5 className="card-title fw-bolder">Track 3</h5>
             </div>
-            <ul className="list-group list-group-numbered">
-              <li className="list-group-item">
+            <ul className="list-group list-group-numbered p-2">
+              <li className="list-group-item track2">
                 Automation Using PLC, SCADA and DCS
               </li>
-              <li className="list-group-item">Robotics</li>
-              <li className="list-group-item">Biomedical Instrumentation</li>
+              <li className="list-group-item track2">Robotics</li>
+              <li className="list-group-item track2">
+                Biomedical Instrumentation
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="row justify-content-md-center">
-        <div className="col p-2  d-flex justify-content-center">
-          <div className="card border-5 border-secondary" style={{ width: "25rem" }}>
-            <img src={gif3} alt="Your GIF" />
+        <div className="col p-2  d-flex justify-content-center ">
+          <div
+            className="card border-5 border-secondary track1 "
+            style={{ width: "25rem" }}
+          >
+            <img
+              src={gif3}
+              alt="Your GIF"
+              className="rounded-3 m-auto mt-1 "
+              style={{ width: "20rem" }}
+            />
 
             <div className="card-header ">
               <h5 className="card-title fw-bolder">Track 4</h5>
             </div>
-            <ul className="list-group list-group-numbered">
-              <li className="list-group-item">Cloud Computing and Big Data</li>
-              <li className="list-group-item">
+            <ul className="list-group list-group-numbered p-2">
+              <li className="list-group-item track2">
+                Cloud Computing and Big Data
+              </li>
+              <li className="list-group-item track2">
                 Artifical Intelligence and Machine Learning
               </li>
-              <li className="list-group-item">Gaming</li>
-              <li className="list-group-item">Web Of Things</li>
-              <li className="list-group-item">Web Security and Networking</li>
-              <li className="list-group-item">Robotics</li>
+              <li className="list-group-item track2">Gaming</li>
+              <li className="list-group-item track2">Web Of Things</li>
+              <li className="list-group-item track2">
+                Web Security and Networking
+              </li>
+              <li className="list-group-item track2">Robotics</li>
             </ul>
           </div>
         </div>
         <div className="col p-2  d-flex justify-content-center">
-          <div className="card border-5 border-secondary" style={{ width: "25rem" }}>
-            <img src={gif4} alt="Your GIF" />
+          <div
+            className="card border-5 border-secondary track1"
+            style={{ width: "25rem" }}
+          >
+            <img
+              src={gif4}
+              alt="Your GIF"
+              className="rounded-3  mt-1 "
+              style={{
+                width: "20rem",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            />
 
             <div className="card-header">
               <h5 className="card-title fw-bolder">Track 5</h5>
             </div>
-            <ul className="list-group list-group-numbered">
-              <li className="list-group-item">
+            <ul className="list-group list-group-numbered p-2">
+              <li className="list-group-item track2">
                 {" "}
                 Concrete Technology and Structural Engg.
               </li>
-              <li className="list-group-item">
+              <li className="list-group-item track2">
                 Construction Management and Urban Planning
               </li>
-              <li className="list-group-item">
+              <li className="list-group-item track2">
                 Transportation Engg. and Geotechnical Engg.
               </li>
-              <li className="list-group-item">
+              <li className="list-group-item track2">
                 Environmental and Water Resources Engg.
               </li>
             </ul>

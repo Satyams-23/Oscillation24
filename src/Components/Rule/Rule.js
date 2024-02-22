@@ -3,7 +3,9 @@ import "./Rule.css";
 import png1 from "./Team work-rafiki.png";
 import png2 from "./Cash Payment-bro.png";
 import png3 from "./Forms-amico.png";
-
+import png4 from "./guidelines.png";
+import png5 from "./shop.png";
+import png6 from "./contact-book.png";
 function Rule() {
   const [isVisible, setIsVisible] = useState(true);
   const [isScrollingUp, setIsScrollingUp] = useState(true);
@@ -102,7 +104,7 @@ function Rule() {
           </div>
         </div>
         <div className="row justify-content-center d-flex mt-4">
-          <img src="" />
+          <img src={png4} style={{ width: "5rem" }} />
           <h1 className="text-center text-white p-3">
             Registration Guidelines
           </h1>
@@ -132,7 +134,7 @@ function Rule() {
         <div className="row justify-content-center d-flex mt-4 gap-5">
           <div className="col text-white">
             <div className="row">
-              <img />
+              <img src={png5} style={{ width: "5rem" }} className="m-auto" />
               <h3 className="text-center">Payment details</h3>
             </div>
             <div className="row p-5">
@@ -203,7 +205,7 @@ function Rule() {
           </div>
           <div className="col text-white">
             <div className="row">
-              <img />
+              <img src={png6} style={{ width: "5rem" }} className="m-auto" />
               <h3 className="text-center">Contacts</h3>
             </div>
             <div className="row p-5">
