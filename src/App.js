@@ -1,36 +1,29 @@
-import logo from "./logo.svg";
-import { useState, useEffect } from "react";
-import "./App.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home.js";
 import PreLoader from "./Components/PreLoader/PreLoader.js";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   // Simulate loading process
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setIsLoading(false); // Set loading to false after 3000ms
-    }, 3000);
+      setLoading(false);
+    }, 3000); // Adjust the duration as needed
 
     return () => clearTimeout(timeoutId);
   }, []);
 
   return (
     <Router>
-      <Routes>
-        {isLoading ? (
-          <Route path="/" element={<PreLoader />} />
-        ) : (
+      {loading ? (
+        <PreLoader />
+      ) : (
+        <Routes>
           <Route path="/" element={<Home />} />
-        )}
-        <Route path="/home" element={<Home />} />
-      </Routes>
+        </Routes>
+      )}
     </Router>
   );
 }

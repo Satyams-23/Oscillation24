@@ -3,8 +3,12 @@ import "../Main/Main.css";
 import { Link } from "react-router-dom";
 function Main() {
   return (
-    <div className="container-fluid  text-white " id="new">
-      <div className="container mt-5 justify-content-center  p-5">
+    <div className="container-fluid  text-white p-0 " id="new">
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <div className="container justify-content-center  p-5">
         <div className="text-center p-0 ">
           <h1 className="p-0 m-auto fw-bolder intro">VNPS '24</h1>
           <hr className="hr border-5  justify-item-center" />
