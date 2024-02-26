@@ -48,7 +48,7 @@ function Rule() {
               />
               <div className="card-body">
                 <h1 className="card-title fw-bolder text-center">Team Size</h1>
-                <p className="card-text">
+                <p className="card-text text-center">
                   A team can consist of Maximum 4 members.Bearing a valid
                   college ID mandatory.
                 </p>
@@ -71,7 +71,7 @@ function Rule() {
                 <h1 className="card-title fw-bolder text-center">
                   Resgiration Fee
                 </h1>
-                <p className="card-text">
+                <p className="card-text text-center">
                   The rates are per group basis Internal (For VCET Students): BE
                   Major Project: ₹ 200/- TE/SE Minor Project: ₹ 150/- External
                   (For NON-VCET Students): BE Major Project: ₹ 300/- TE/SE Minor

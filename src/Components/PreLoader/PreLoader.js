@@ -9,10 +9,10 @@ const PreLoader = () => {
     }, []);
     return (
       <div className="preloader">
-        <div className="texts-container text-white">
-          <span>Developer,</span>
-          <span>Curator,</span>
-          <span>Vibes.</span>
+        <div className="row texts-container text-white text-center">
+          <span>VIDYAVARDHINI'S COLLOGE OF ENGINEERING AND TECHNOLOGY</span>
+          <span>PRESENTS</span>
+          <span>VNPS'24</span>
         </div>
       </div>
     );
