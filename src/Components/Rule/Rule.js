@@ -132,7 +132,7 @@ function Rule() {
           </div>
         </div>
         <div className="row justify-content-center d-flex mt-4 gap-5">
-          <div className="col text-white">
+          <div className="col-lg text-white">
             <div className="row">
               <img src={png5} style={{ width: "5rem" }} className="m-auto" />
               <h3 className="text-center">Payment details</h3>
@@ -203,7 +203,7 @@ function Rule() {
               </ul>
             </div>
           </div>
-          <div className="col text-white">
+          <div className="col-lg text-white">
             <div className="row">
               <img src={png6} style={{ width: "5rem" }} className="m-auto" />
               <h3 className="text-center">Contacts</h3>
