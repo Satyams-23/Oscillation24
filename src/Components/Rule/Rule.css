@@ -19,8 +19,35 @@
   transform: translateY(0);
 }
 
+@media (max-width: 768px) {
+  .prize {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3.5rem;
+  }
+  .payment {
+    padding: 7px;
+    margin: auto;
+    align-items: center;
+  }
+  .accord {
+    padding: 7px;
+    margin: auto;
+  }
+}
 
-.intro {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 5.5rem;
+/* Desktop view */
+@media (min-width: 769px) {
+  .prize {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 5.5rem;
+  }
+  .payment {
+    padding: 29px;
+    margin: auto;
+    align-items: center;
+  }
+  .accord {
+    padding: 29px;
+    margin: auto;
+  }
 }

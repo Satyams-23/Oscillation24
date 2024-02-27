@@ -8,7 +8,7 @@ function Main() {
       <br></br>
       <br></br>
 
-      <div className="container justify-content-center  p-5">
+      <div className="container">
         <div className="text-center p-0 ">
           <h1 className="p-0 m-auto fw-bolder intro">VNPS '24</h1>
           <hr className="hr border-5  justify-item-center" />
@@ -20,9 +20,10 @@ function Main() {
           <h1 className="fw-bolder sub">On 6th April 2024</h1>
           <hr className="hr border-5" />
         </div>
-        <div className="fw-bolder fs-1 mt-2 text-center animated-text ">
+        <div className="sty text-center animated-text">
           INVENT.... INNOVATE.... INSPIRE...
         </div>
+
         <div className="text-center m-auto mt-5">
           <Link className="btn btn-light fs-3 sub rounded-pill" type="button">
             Registeration

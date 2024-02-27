@@ -108,7 +108,7 @@ function Rule() {
           <h1 className="text-center text-white p-3">
             Registration Guidelines
           </h1>
-          <div className="row-sm p-5">
+          <div className="row-sm p-1 m-auto">
             <ul className="text-white">
               <li>
                 The participants are expected to complete the registration
@@ -137,7 +137,7 @@ function Rule() {
               <img src={png5} style={{ width: "5rem" }} className="m-auto" />
               <h3 className="text-center">Payment details</h3>
             </div>
-            <div className="row p-5">
+            <div className="row  payment">
               <ul>
                 <li>Payment should be done by 04th April 2023 itself.</li>
                 <li>
@@ -208,15 +208,15 @@ function Rule() {
               <img src={png6} style={{ width: "5rem" }} className="m-auto" />
               <h3 className="text-center">Contacts</h3>
             </div>
-            <div className="row p-5">
+            <div className="row  accord">
               <div
-                className="accordion accordion-flush"
+                className="accordion accordion-flush "
                 id="accordionFlushExample"
               >
-                <div className="accordion-item">
+                <div className="accordion-item bg-dark-subtle">
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className="accordion-button collapsed bg-dark-subtle"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -259,10 +259,10 @@ function Rule() {
                     </div>
                   </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item bg-dark-subtle">
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className="accordion-button collapsed bg-dark-subtle"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -305,10 +305,10 @@ function Rule() {
                     </div>
                   </div>
                 </div>
-                <div className="accordion-item">
+                <div className="accordion-item bg-dark-subtle">
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className="accordion-button collapsed bg-dark-subtle"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -353,10 +353,10 @@ function Rule() {
                   </div>
                 </div>
 
-                <div className="accordion-item">
-                  <h2 className="accordion-header">
+                <div className="accordion-item bg-dark-subtle">
+                  <h2 className="accordion-header ">
                     <button
-                      className="accordion-button collapsed"
+                      className="accordion-button collapsed bg-dark-subtle"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour"
@@ -400,10 +400,10 @@ function Rule() {
                   </div>
                 </div>
 
-                <div className="accordion-item">
+                <div className="accordion-item bg-dark-subtle">
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className="accordion-button collapsed bg-dark-subtle"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive"
@@ -454,7 +454,7 @@ function Rule() {
       <div className="container-fluid bg-primary">
         <div
           id="fade-in-text"
-          className={`fade-in-text fw-bolder mt-2 text-center text-white intro ${
+          className={`fade-in-text fw-bolder mt-2 text-center text-white prize ${
             isVisible ? "visible" : ""
           } ${!isScrollingUp ? "scroll-down" : ""}`}
         >
@@ -462,7 +462,7 @@ function Rule() {
         </div>
         <div
           id="fade-in-text"
-          className={`fade-in-text fw-bolder mt-2 text-center text-white intro ${
+          className={`fade-in-text fw-bolder mt-2 text-center text-white prize ${
             isVisible ? "visible" : ""
           } ${!isScrollingUp ? "scroll-down" : ""}`}
         >

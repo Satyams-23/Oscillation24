@@ -4,14 +4,7 @@
   display: inline-flex;
   padding: 0;
 }
-.intro {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 6.5rem;
-}
-.sub {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 3.5rem;
-}
+
 .animated-text {
   opacity: 0; /* Start with text hidden */
   transform: translateY(20px); /* Move text slightly down */
@@ -26,5 +19,35 @@
   to {
     opacity: 1;
     transform: translateY(0); /* Move text back to its original position */
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 4rem;
+  }
+  .sub {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.5rem;
+  }
+  .sty {
+    font-weight: bolder;
+    font-size: 1rem;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .intro {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 6.5rem;
+  }
+  .sub {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3.5rem;
+  }
+  .sty {
+    font-weight: bolder;
+    font-size: 3.5rem;
   }
 }

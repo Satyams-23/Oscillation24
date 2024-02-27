@@ -24,8 +24,7 @@ function Track() {
               <img
                 src={gif}
                 alt="Your GIF"
-                className="rounded-3 m-auto mt-1 "
-                style={{ width: "20rem" }}
+                className="rounded-3 m-auto mt-1 Imn"
               />
 
               <div className="card-header">
@@ -58,8 +57,7 @@ function Track() {
               <img
                 src={gif1}
                 alt="Your GIF"
-                className="rounded-3 m-auto mt-1 "
-                style={{ width: "20rem" }}
+                className="rounded-3 m-auto mt-1 Imn"
               />
 
               <div className="card-header">
@@ -90,11 +88,10 @@ function Track() {
                 src={gif5}
                 alt="Your GIF"
                 style={{
-                  width: "20rem",
                   marginLeft: "auto",
                   marginRight: "auto",
                 }}
-                className="rounded-3  mt-1 "
+                className="rounded-3  mt-1 Imn "
               />
               <div className="card-header">
                 <h5 className="card-title fw-bolder">Track 3</h5>
@@ -120,8 +117,7 @@ function Track() {
               <img
                 src={gif3}
                 alt="Your GIF"
-                className="rounded-3 m-auto mt-1 "
-                style={{ width: "20rem" }}
+                className="rounded-3 m-auto mt-1 Imn"
               />
 
               <div className="card-header ">
@@ -151,9 +147,8 @@ function Track() {
               <img
                 src={gif4}
                 alt="Your GIF"
-                className="rounded-3  mt-1 "
+                className="rounded-3  mt-1 Imn"
                 style={{
-                  width: "20rem",
                   marginLeft: "auto",
                   marginRight: "auto",
                 }}
