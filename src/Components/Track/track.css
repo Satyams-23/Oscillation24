@@ -1,7 +1,3 @@
-.track {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 5rem;
-}
 .para {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.5rem;
@@ -27,11 +23,19 @@
   .Imn {
     width: 14rem;
   }
+  .track {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
 }
 
 /* Desktop view */
 @media (min-width: 769px) {
   .Imn {
     width: 20rem;
+  }
+  .track {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 5rem;
   }
 }

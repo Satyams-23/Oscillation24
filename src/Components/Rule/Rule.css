@@ -1,7 +1,4 @@
-.rule {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 4.5rem;
-}
+
 .para {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.5rem;
@@ -33,6 +30,10 @@
     padding: 7px;
     margin: auto;
   }
+  .rule {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
 }
 
 /* Desktop view */
@@ -49,5 +50,9 @@
   .accord {
     padding: 29px;
     margin: auto;
+  }
+  .rule {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 4.5rem;
   }
 }
