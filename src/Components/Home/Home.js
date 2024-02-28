@@ -7,6 +7,7 @@ import Main from "../Main/Main.js";
 import Contact from "../Contact/Contact.js";
 import Footer from "../Footer/Footer.js";
 import BackToTopButton from "../BackToTopButton.js";
+
 import PreLoader from "../PreLoader/PreLoader.js";
 function Home() {
   return (
