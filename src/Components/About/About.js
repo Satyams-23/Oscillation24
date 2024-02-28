@@ -3,7 +3,7 @@ import "../About/About.css";
 function About() {
   return (
     <div className="container-fluid mt-5 pt-3  " id="about">
-      <hr className="border-5 border-white opacity-75 " />
+      <hr className="border-2 border-dark opacity-100 " />
       <div className=" fw-bolder text-center about text-white">ABOUT US</div>
       <div className="container">
         <p className="text-white text-center par mt-2">

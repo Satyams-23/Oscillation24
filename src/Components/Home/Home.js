@@ -6,6 +6,7 @@ import Rule from "../Rule/Rule.js";
 import Main from "../Main/Main.js";
 import Contact from "../Contact/Contact.js";
 import Footer from "../Footer/Footer.js";
+import BackToTopButton from "../BackToTopButton.js";
 // import WAVES from "vanta/dist/vanta.waves.min";
 import PreLoader from "../PreLoader/PreLoader.js";
 function Home() {
@@ -46,6 +47,7 @@ function Home() {
       <Track />
       <Rule />
       <Contact />
+      <BackToTopButton/>
       <Footer />
     </div>
   );

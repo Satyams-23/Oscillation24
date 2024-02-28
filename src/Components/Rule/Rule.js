@@ -29,6 +29,8 @@ function Rule() {
   }, []);
   return (
     <div className="container-fluid mt-5 p-0 " id="rule">
+      <br />
+      <br />
       <div className="container">
         <div className="fw-bolder text-center rule text-white">RULES</div>
         <p className="text-white text-center para mt-2">

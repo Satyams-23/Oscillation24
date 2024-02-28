@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { scrollToComponent } from "../ScrollTo";
-import "./Navbar.css"
+import "./Navbar.css";
 
 function Navbar() {
   const handleLinkClick = (componentId) => {
@@ -13,7 +13,7 @@ function Navbar() {
       id="main"
     >
       <div className="container-fluid ">
-        <Link to="/" className="navbar-brand">
+        <Link to="/" className="navbar-brand fw-bolder">
           VNPS
         </Link>
         <button
@@ -34,7 +34,7 @@ function Navbar() {
           >
             <li className="nav-item ms-2">
               <Link className="nav-link" onClick={() => handleLinkClick("new")}>
-                <button type="button" class="btn text-white fw-bolder ">
+                <button type="button" class="btn  fw-bolder add">
                   Home
                 </button>
               </Link>
@@ -44,7 +44,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={() => handleLinkClick("about")}
               >
-                <button type="button" class="btn text-white fw-bolder">
+                <button type="button" class="btn fw-bolder add">
                   About
                 </button>
               </Link>
@@ -54,7 +54,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={() => handleLinkClick("track")}
               >
-                <button type="button" class="btn text-white fw-bolder">
+                <button type="button" class="btn  fw-bolder add">
                   Track
                 </button>
               </Link>
@@ -64,7 +64,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={() => handleLinkClick("rule")}
               >
-                <button type="button" class="btn  text-white fw-bolder ">
+                <button type="button" class="btn   fw-bolder add">
                   Rules{" "}
                 </button>
               </Link>
@@ -74,7 +74,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={() => handleLinkClick("contact")}
               >
-                <button type="button" class="btn text-white fw-bolder">
+                <button type="button" class="btn  fw-bolder add">
                   Contact
                 </button>
               </Link>

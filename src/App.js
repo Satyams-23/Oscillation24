@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home.js";
 import PreLoader from "./Components/PreLoader/PreLoader.js";
-
 function App() {
   const [loading, setLoading] = useState(true);
 
