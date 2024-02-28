@@ -33,7 +33,7 @@ function Contact() {
               <div className="col-sm-1 p-0" style={{ width: "auto" }}>
                 <img src={png2} style={{ width: "32px" }} />
               </div>
-              <div className="col-sm-5" style={{ width: "auto" }}>
+              <div className="col-sm-5" style={{ width: "75%" }}>
                 0250-2338234
               </div>
             </div>
