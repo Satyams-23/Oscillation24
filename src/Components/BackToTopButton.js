@@ -31,12 +31,12 @@ const BackToTopButton = () => {
   }, []);
 
   return (
-    <a
+    <div
       className={`back-to-top ${
         isVisible ? "show" : "hide"
-      } btn btn-primary bak`}
+      } btn btn-primary bak `}
       onClick={scrollToTop}
-    ></a>
+    ></div>
   );
 };
 

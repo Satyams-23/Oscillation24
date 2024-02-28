@@ -1,6 +1,7 @@
 .bak {
-  display: inline-block;
-  background-color: #ff9800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -13,23 +14,26 @@
   visibility: hidden;
   z-index: 1000;
 }
+
 .bak::after {
-    content: "^";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-  }
-  .bak:hover {
-    cursor: pointer;
-    background-color: #333;
-  }
-  .bak:active {
-    background-color: #555;
-  }
- .bak.show {
-    opacity: 1;
-    visibility: visible;
-  }
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  color: #fff;
+}
+
+.bak:hover {
+  cursor: pointer;
+  background-color: #1b0b70;
+}
+
+.bak:active {
+  background-color: #1b0b70;
+}
+
+.bak.show {
+  opacity: 1;
+  visibility: visible;
+}
