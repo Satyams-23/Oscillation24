@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
     "animejs": "^3.2.2",
     "aos": "^2.3.4",
     "gsap": "^3.12.5",
@@ -14,7 +16,6 @@
     "react-router-dom": "^6.22.1",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
-    "tsparticles": "^3.3.0",
     "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },

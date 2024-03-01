@@ -9,17 +9,27 @@ import Footer from "../Footer/Footer.js";
 import BackToTopButton from "../BackToTopButton.js";
 
 import PreLoader from "../PreLoader/PreLoader.js";
+import ParticlesComponent from "../ParticlesComponent.js";
 function Home() {
   return (
-    <div className="container-fluid p-0" style={{ backgroundColor: "black" }}>
-      <Navbar />
-      <Main />
-      <About />
-      <Track />
-      <Rule />
-      <Contact />
-      <BackToTopButton />
-      <Footer />
+    <div className="container-fluid p-0" style={{backgroundColor:'#0b1924'}}>
+      <ParticlesComponent />
+      <div
+        style={{
+          position: "relative",
+          zIndex: "1",
+          color: "white",
+        }}
+      >
+        <Navbar />
+        <Main />
+        <About />
+        <Track />
+        <Rule />
+        <Contact />
+        <BackToTopButton />
+        <Footer />
+      </div>
     </div>
   );
 }
