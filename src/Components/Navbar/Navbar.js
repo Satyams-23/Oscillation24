@@ -4,6 +4,12 @@ import { scrollToComponent } from "../ScrollTo";
 import "./Navbar.css";
 
 function Navbar() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scroll behavior
+    });
+  };
   const handleLinkClick = (componentId) => {
     scrollToComponent(componentId);
   };
@@ -33,7 +39,7 @@ function Navbar() {
             style={{ marginLeft: "auto" }}
           >
             <li className="nav-item ms-2">
-              <Link className="nav-link" onClick={() => handleLinkClick("new")}>
+              <Link className="nav-link" onClick={scrollToTop}>
                 <button type="button" class="btn  fw-bolder add">
                   Home
                 </button>
