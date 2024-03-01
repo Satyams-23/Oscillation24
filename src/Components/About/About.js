@@ -7,7 +7,7 @@ function About() {
       <div className=" fw-bolder text-center about text-white">ABOUT US</div>
       <div className="container">
         <p className="text-white text-center par mt-2">
-          VNPS 2023 is a National Level project showcase which is the biggest
+          VNPS 2024 is a National Level project showcase which is the biggest
           Technical Fest organized by Vidyavardhini's College of Engineering and
           Technology. VNPS is realized by the combined efforts of various
           departments' student committees: IEEE, ISA, CSI, IETE, VMEA, ISHRAE

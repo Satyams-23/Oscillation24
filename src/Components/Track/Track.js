@@ -9,7 +9,7 @@ import gif5 from "./people using robots.gif";
 function Track() {
   return (
     <div className="container-fluid p-3 mt-5" id="track">
-      <br/>
+      <br />
       <div className="container">
         <div className="fw-bolder text-center text-white track ">TRACK</div>
         <p className="text-white text-center para mt-2">
@@ -25,10 +25,14 @@ function Track() {
               <img
                 src={gif}
                 alt="Your GIF"
-                className="rounded-3 m-auto mt-1 Imn"
+                style={{
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+                className="rounded-3  mt-1 Imn"
               />
 
-              <div className="card-header">
+              <div className="card-header mt-2">
                 <h5 className="card-title fw-bolder">Track 1</h5>
               </div>
               <ul className="list-group list-group-numbered rounded-2 p-2">
@@ -58,10 +62,14 @@ function Track() {
               <img
                 src={gif1}
                 alt="Your GIF"
-                className="rounded-3 m-auto mt-1 Imn"
+                style={{
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+                className="rounded-3  mt-1 Imn"
               />
 
-              <div className="card-header">
+              <div className="card-header mt-2">
                 <h5 className="card-title fw-bolder">Track 2</h5>
               </div>
               <ul className="list-group list-group-numbered p-2">
@@ -94,7 +102,7 @@ function Track() {
                 }}
                 className="rounded-3  mt-1 Imn "
               />
-              <div className="card-header">
+              <div className="card-header mt-2">
                 <h5 className="card-title fw-bolder">Track 3</h5>
               </div>
               <ul className="list-group list-group-numbered p-2">
@@ -108,8 +116,6 @@ function Track() {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="row justify-content-md-center">
           <div className="col p-2  d-flex justify-content-center ">
             <div
               className="card border-5 border-secondary track1 "
@@ -118,10 +124,14 @@ function Track() {
               <img
                 src={gif3}
                 alt="Your GIF"
-                className="rounded-3 m-auto mt-1 Imn"
+                style={{
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+                className="rounded-3  mt-1 Imn"
               />
 
-              <div className="card-header ">
+              <div className="card-header mt-2">
                 <h5 className="card-title fw-bolder">Track 4</h5>
               </div>
               <ul className="list-group list-group-numbered p-2">
@@ -155,7 +165,7 @@ function Track() {
                 }}
               />
 
-              <div className="card-header">
+              <div className="card-header mt-2">
                 <h5 className="card-title fw-bolder">Track 5</h5>
               </div>
               <ul className="list-group list-group-numbered p-2">
