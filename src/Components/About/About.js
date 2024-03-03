@@ -7,14 +7,7 @@ function About() {
       <div className=" fw-bolder text-center about text-white">ABOUT US</div>
       <div className="container">
         <p className="text-white text-center par mt-2">
-          VNPS 2024 is a National Level project showcase which is the biggest
-          Technical Fest organized by Vidyavardhini's College of Engineering and
-          Technology. VNPS is realized by the combined efforts of various
-          departments' student committees: IEEE, ISA, CSI, IETE, VMEA, ISHRAE
-          and IGBC. They work in sync to provide a platform to the students with
-          different project ideas to come together and present their ideas and
-          innovations. VNPS aims to inspire students to think, motivate and
-          innovate.
+          Oscillations'23 - TPP (Technical Paper Presentation) an intercollege student technical paper presentation annually organized by VCET in order to give due recognition to the inquisitiveness and creativity of students. We invite the brightest minds to come and compete in TPP 2023 to showcase their research work and win accolades and exciting prizes.
         </p>
         <div className="container mt-5">
           <div className="row justify-content-center p-0 ">
